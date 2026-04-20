@@ -22,7 +22,9 @@
       "Bash(unzip -q \"C:\\\\Users\\\\User\\\\Desktop\\\\06_개인\\\\생각은에너지님\\\\생각은에너지님.zip\")",
       "Bash(xargs grep *)",
       "Bash(grep \"USER\\\\\\\\\\\\\\\\Desktop\" \"C:\\\\Users\\\\User\\\\Desktop\\\\06_개인\\\\생각은에너지님\\\\docs\\\\.vitepress\\\\dist\\\\part1\\\\1-2-install.html\")",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(curl -s \"https://celine96.github.io/ella-1day-workshop/part1/1-2-install.html\")",
+      "Bash(grep -oE \"Users.{1,15}Desktop\")"
     ]
   }
 }

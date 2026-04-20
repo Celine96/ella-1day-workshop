@@ -4,7 +4,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "postinstall": "playwright install chromium"
   },
   "devDependencies": {
     "playwright": "^1.59.1",

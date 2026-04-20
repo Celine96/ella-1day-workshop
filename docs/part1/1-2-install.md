@@ -36,6 +36,15 @@ claude --version
 ```
 
 > 버전 번호가 표시되면 설치 완료예요. "command not found"가 나오면 터미널을 다시 닫고 열어주세요.
+>
+> **Mac에서 계속 `command not found: claude`가 나온다면** PATH가 설정되지 않은 상태예요 (설치된 파일 위치를 터미널이 모르는 상태). 아래를 복사해서 터미널에 붙여넣어 주세요:
+>
+> ```
+> echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+> source ~/.zshrc
+> ```
+>
+> 그 다음 `claude --version`을 다시 시도해 주세요.
 
 Step 2. 사전에 공유받은 zip 파일(`생각은에너지님.zip`)을 바탕화면에 압축 해제해 주세요. 압축을 풀면 `생각은에너지님` 폴더가 생성되고, 안에 실습에 필요한 파일들이 이미 들어있어요.
 
